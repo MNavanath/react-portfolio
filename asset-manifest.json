@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/PortfolioNavanath/static/css/main.05e20dce.css",
-    "main.js": "/PortfolioNavanath/static/js/main.b960696b.js",
-    "index.html": "/PortfolioNavanath/index.html"
+    "main.css": "/react-portfolio/static/css/main.05e20dce.css",
+    "main.js": "/react-portfolio/static/js/main.05086097.js",
+    "index.html": "/react-portfolio/index.html"
   },
   "entrypoints": [
     "static/css/main.05e20dce.css",
-    "static/js/main.b960696b.js"
+    "static/js/main.05086097.js"
   ]
 }
