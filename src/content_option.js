@@ -1,23 +1,27 @@
-const logotext = "JOHN";
+const logotext = "M Navanath";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Madakatte Navanath",
+    description: "I’m Navanath Madakatte Full stack devloper.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Navanath Madakatte",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I develop full stack applications",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I am a passionate Java Full Stack Developer specializing in building scalable, secure, and user-friendly applications. I work with Java, Spring Boot, React, and MySQL to deliver end-to-end solutions that bring ideas to life.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Full Stack Java Developer",
+    aboutme: `I am a passionate Full Stack Java Developer with expertise in building scalable, secure, and high-performance web applications. 
+    My core skills include Java, Spring Boot, RESTful APIs, and database management using MySQL. 
+    On the frontend, I work with JavaScript, React, and modern UI frameworks to create responsive and user-friendly interfaces. 
+    I have experience in end-to-end development, from designing database schemas to deploying applications on cloud platforms.
+    My goal is to deliver clean, maintainable code and create solutions that provide real business value.`
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -36,121 +40,72 @@ const worktimeline = [{
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+const skills = [
+    { name: "Java" },
+    { name: "Spring Boot" },
+    { name: "JavaScript" },
+    { name: "React" },
+    { name: "HTML & CSS" },
+    { name: "MySQL" },
+    { name: "REST API Development" },
+    { name: "Git & GitHub" },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const services = [
+    {
+        title: "Backend Development",
+        description: "Building scalable, secure, and maintainable backend applications using Java, Spring Boot, and REST APIs."
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Frontend Development",
+        description: "Creating responsive, user-friendly web applications using React, JavaScript, HTML, and CSS."
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Database Design & Management",
+        description: "Designing and optimizing relational databases, writing efficient queries, and ensuring data integrity."
     },
+    {
+        title: "API Integration",
+        description: "Developing and integrating RESTful APIs for seamless communication between frontend and backend systems."
+    }
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
 
+const dataportfolio = [
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Fhorizontal-long-blue-sky-background-260nw-2311746315.jpg&tbnid=c4rsRNU-ajchxM&vet=10CAIQxiAoAGoXChMI-IbGkaqAjwMVAAAAAB0AAAAAEAc..i&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Fhorizontal-long-blue-sky-background-image-2311746315&docid=I_-SLectxruRRM&w=939&h=280&itg=1&q=long%20images&ved=0CAIQxiAoAGoXChMI-IbGkaqAjwMVAAAAAB0AAAAAEAc",
+        description: "Full-Stack Retail Billing Software - A real-world billing system with product management, AWS S3 uploads, Razorpay payments, and role-based access using React.js, Spring Boot, and MySQL.",
+        link: "https://github.com/yourusername/retail-billing-software",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://via.placeholder.com/400x300?text=NLP+Series+Analyzer",
+        description: "NLP-Based Series Analyzer - Web tool for analyzing TV series characters using NER, LLMs, and web scraping with a Gradio chatbot interface.",
+        link: "https://github.com/yourusername/nlp-series-analyzer",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+        img: "https://via.placeholder.com/400x300?text=Food+Management+System",
+        description: "Food Management System - Role-based food ordering and inventory tracking app using Spring Boot, MySQL, and Thymeleaf.",
+        link: "https://github.com/yourusername/food-management-system",
+    }
 ];
+
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
+    YOUR_EMAIL: "madakattenavanath.com",
+    YOUR_FONE: "+917676388165",
+    description:
+        "Feel free to reach out for collaboration, project inquiries, or any questions related to Java Full Stack Development. I am always open to discussing new ideas and bringing them to life through clean, scalable, and efficient code.",
+    // create an emailjs.com account
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_wbqypaz",
+    YOUR_TEMPLATE_ID: "template_zopmq09",
+    YOUR_USER_ID: "oPnGJA603KiOtWkHL",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/MNavanath",
+    linkedin: "https://www.linkedin.com/in/navanathmadakatte/",
+    twitter: "https://x.com/MadakatteNav",
 };
 export {
     meta,
